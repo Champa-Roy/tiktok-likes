@@ -1,0 +1,115 @@
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-logo {
+    display: flex;
+
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.nav-icon img{
+    width: 20px;
+    height: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-menu{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.banner-name h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #434343;
+}
+
+.banner-name p {
+    font-size: 24px;
+    color: #434343;
+}
+
+.banner-img {
+    width: 450px;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fe4860;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: #f2bb46;
+}
+
+.card {
+    background-color: #ffd3d6;
+    padding: 50px;
+
+}
+
+
+.banner-buttons{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: start;
+}
+
+
+@media screen and (max-width: 600px) {
+    .banner{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .banner-img{
+        width: 100%;
+    }
+    .banner-name h2{
+        font-size: 32px;
+    }
+    .banner-name p{
+        font-size: 18px;
+    }
+    .card {
+        padding: 20px;
+    }
+}
