@@ -22,7 +22,7 @@ nav {
     gap: 10px;
 }
 
-.nav-icon img{
+.nav-icon img {
     width: 20px;
     height: 20px;
 }
@@ -38,16 +38,18 @@ nav {
 
 }
 
-.nav-menu{
+.nav-menu {
     display: flex;
     gap: 30px;
     align-items: center;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
 .banner-name h2 {
     font-size: 48px;
     font-weight: 700;
@@ -86,7 +88,7 @@ nav {
 }
 
 
-.banner-buttons{
+.banner-buttons {
     display: flex;
     flex-direction: column;
     width: fit-content;
@@ -101,10 +103,11 @@ nav {
     font-size: 48px;
     font-weight: 700;
     color: #434343;
-    
-    
-   
+
+
+
 }
+
 .title h3 {
     display: flex;
     justify-content: center;
@@ -112,59 +115,132 @@ nav {
     font-size: 48px;
     font-weight: 500;
 }
-.card-img{
-  width: 635px;
-  height: 635px;
-  display: flex;
-  justify-content: center;  
-  border-radius: 100%;
- background-color: #ffe6e7;
- margin: 0 auto;
- padding: 50px 50px;
+
+.card-img {
+    width: 635px;
+    height: 635px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: #ffe6e7;
+    margin: 0 auto;
+    padding: 50px 50px;
 }
-.cards{
+
+.cards {
     display: flex;
     justify-content: center;
     padding: 50px;
     margin: 50px 0;
-  
-    
+
+
 }
 
-.card{
+.card {
     padding: 20px;
-   width: 370px;
-  
+    width: 370px;
+
 }
-.card h2{
-  font-size: 40px;
-  font-weight: 700;
-  color: #434343;  
+
+.card h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #434343;
 }
-.card p{
+
+.card p {
     font-size: 21px;
     color: #434343;
 }
-.card-2{
-    margin: 50px auto;
+
+.banner-2 {
+    margin: 40px 0;
 }
 
+/* 3rd section */
+.increase {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.increase h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #434343;
+}
+
+.increase p {
+    font-size: 20px;
+    font-weight: 275px;
+}
+
+.likes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-clik {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fe5066;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.clik {
+    display: flex;
+    justify-content: center;
+}
+
+.choose-the-way-section{
+    background-color: #ffd3d6;
+    padding: 30px;
+}
+
+
+
+
 @media screen and (max-width: 600px) {
-    .banner{
+    .banner {
         flex-direction: column-reverse;
         gap: 50px;
     }
 
-    .banner-img{
+    .banner-img {
         width: 100%;
     }
-    .banner-name h2{
+
+    .banner-name h2 {
         font-size: 32px;
     }
-    .banner-name p{
+
+    .banner-name p {
         font-size: 18px;
     }
+
     .card {
         padding: 20px;
     }
+
+    .cards {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .likes{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .choose-the-way-section{
+        padding: 10px;
+    }
+    
 }
