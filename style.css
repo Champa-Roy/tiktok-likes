@@ -79,7 +79,7 @@ nav {
     background-color: #f2bb46;
 }
 
-.card {
+.navs {
     background-color: #ffd3d6;
     padding: 50px;
 
@@ -93,6 +93,61 @@ nav {
     align-items: start;
 }
 
+/* 2nd section */
+
+.title h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #434343;
+    
+    
+   
+}
+.title h3 {
+    display: flex;
+    justify-content: center;
+    color: #434343;
+    font-size: 48px;
+    font-weight: 500;
+}
+.card-img{
+  width: 635px;
+  height: 635px;
+  display: flex;
+  justify-content: center;  
+  border-radius: 100%;
+ background-color: #ffe6e7;
+ margin: 0 auto;
+ padding: 50px 50px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 50px 0;
+  
+    
+}
+
+.card{
+    padding: 20px;
+   width: 370px;
+  
+}
+.card h2{
+  font-size: 40px;
+  font-weight: 700;
+  color: #434343;  
+}
+.card p{
+    font-size: 21px;
+    color: #434343;
+}
+.card-2{
+    margin: 50px auto;
+}
 
 @media screen and (max-width: 600px) {
     .banner{
