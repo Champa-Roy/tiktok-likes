@@ -97,13 +97,15 @@ nav {
 
 /* 2nd section */
 
+
+
 .title h2 {
     display: flex;
     justify-content: center;
     font-size: 48px;
     font-weight: 700;
     color: #434343;
-
+margin-bottom: 0;
 
 
 }
@@ -114,6 +116,7 @@ nav {
     color: #434343;
     font-size: 48px;
     font-weight: 500;
+    margin-top: 0;
 }
 
 .card-img {
@@ -138,7 +141,7 @@ nav {
 
 .card {
     padding: 20px;
-    width: 370px;
+    flex: 1;
 
 }
 
@@ -204,6 +207,34 @@ nav {
     padding: 30px;
 }
 
+/* 4th section */
+
+.likes-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding: 20px;
+
+}
+
+.likes-card img{
+   width: 302px;
+   height: 214px;
+   object-fit: contain;
+   background-color: #ffebec;
+   border-radius: 25px;
+
+}
+.likes-card h2{
+font-size: 48px;
+font-weight: 600;
+color: #434343;
+margin-bottom: 0;
+}
+.likes-card p{
+   font-size: 15px;
+   color: #434343; 
+}
 
 
 
@@ -242,5 +273,23 @@ nav {
     .choose-the-way-section{
         padding: 10px;
     }
-    
+
+    .card-img{
+        width: 60vw;
+        height: 100%;
+    }
+    .card-img img{
+        width: 90%;
+        height: 60%;
+    }
+
+    .likes-cards{
+        grid-template-columns: repeat(1 ,1fr);
+    }
+
+.likes-card h2{
+    font-size: 32px;
+}
+
+
 }
